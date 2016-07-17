@@ -1,0 +1,12 @@
+{
+  "name": "invite-page",
+  "description": "Page sending invitations to register on the site (AngularJS)",
+  "version": "0.0.1",
+  "homepage": "https://github.com/nordcap/invite-page",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "1.5.x",
+    "angular-resource": "1.5.x"
+  }
+}
