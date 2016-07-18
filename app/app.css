@@ -1,0 +1,13 @@
+.header{
+  background-color: rgb(39, 131, 54);
+  height: 200px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;;
+}
+
+
+p{
+  color: #333;
+}
