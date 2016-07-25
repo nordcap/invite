@@ -7,6 +7,11 @@
   "private": true,
   "dependencies": {
     "angular": "1.5.x",
-    "angular-resource": "1.5.x"
+    "angular-resource": "1.5.x",
+    "angular-bootstrap": "^2.0.0",
+    "angular-animate": "^1.5.7",
+    "angular-touch": "^1.5.7",
+    "bootstrap": "^3.3.6",
+    "jquery": "^3.1.0"
   }
 }

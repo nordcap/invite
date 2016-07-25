@@ -1,5 +1,5 @@
 (function(){
   "use strict";
 
-  angular.module('inviteApp',['header']);
+  angular.module('inviteApp',['ngAnimate', 'ui.bootstrap','ngTouch','header', 'footer']);
 })();

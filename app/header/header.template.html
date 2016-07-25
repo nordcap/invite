@@ -1,4 +1,46 @@
-<div class="header">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <!-- <div class="navbar-header"> -->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!-- TODO: выравнивание по вертикали (flex) не работает -->
+            <ul class="nav navbar-nav flex-middle" style="height:80px;">
+                <li>
+                    <a href="#">
+                        <i class="fa fa-snapchat-square fa-3x" aria-hidden="true"></i>
+                    </a>
+                </li>
 
-  <h1>hello {{$ctrl.name}}</h1>
-</div>
+            </ul>
+
+        <!-- </div> -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right flex-middle">
+                <li>
+                    <a href="#">
+                        <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-bell-o fa-2x" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                    <i class="fa fa-rub fa-2x" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li>
+                    <a href="#" style="display: flex; align-items: center;">
+                      <img src="img/avatar.jpg" alt="" class="img-responsive img-circle avatar"/>
+                    <span>Васильков С.В.</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
