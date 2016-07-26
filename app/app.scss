@@ -1,4 +1,4 @@
-
+@import "bower_components/breakpoint-sass/stylesheets/breakpoint"; //плагин для удобных media-queries
 .avatar{
   margin-right: 15px;
 }
@@ -6,4 +6,51 @@
 .flex-middle{
   display: flex;
   align-items: center;
+}
+
+
+section.bottom{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: rgba(215, 218, 218, 0.96);
+  ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    @include breakpoint(max-width 768px){
+      margin-bottom: 40px;
+    }
+  }
+  @include breakpoint(max-width 768px){
+    text-align: center;
+  }
+
+}
+
+.social-icon{
+
+  li{
+    display: inline-block;
+    margin-left: 10px;
+    &:first-child{
+      margin-left: 0;
+    }
+    a{
+      color: darkgrey;
+      &:hover{
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+aside{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.equal{
+  display: flex;
+  flex: 1 0 auto;
 }

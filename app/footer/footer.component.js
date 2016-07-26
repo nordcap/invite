@@ -8,5 +8,7 @@
     controller:  function FooterController(){
 
     }
-  });
+  })
+  
+  
 })();
