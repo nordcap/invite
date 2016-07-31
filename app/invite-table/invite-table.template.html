@@ -11,10 +11,10 @@
                 </tr>
                 </thead>
                 <tbody>
-                <tr>
-                    <td>15.05.2016</td>
-                    <td>Alex Budaev</td>
-                    <td>Принято</td>
+                <tr ng-repeat="people in $ctrl.people_list">
+                    <td>{{people.date}}</td>
+                    <td>{{people.name}}</td>
+                    <td>{{people.status_text}}</td>
                 </tr>
                 </tbody>
 

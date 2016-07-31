@@ -1,0 +1,106 @@
+[
+  {
+    "date": "Cегодня",
+    "name": "Смирнов С.П.",
+    "status_text": "Ожидание ответа",
+    "statusColor": "gray",
+    "statusFill": true,
+    "active": true
+  },
+  {
+    "date": "Вчера",
+    "name": "Скоростоянов В.А.",
+    "status_text": "Принято",
+    "status_color": "lightblue",
+    "status_fill": true,
+    "active": true
+  },
+  {
+    "date": "13 августа, 2015",
+    "name": "Мартинкевич Г.И.",
+    "status_text": "Прошла аттестацию",
+    "status_color": "yellow",
+    "status_fill": true,
+    "active": true
+  },
+  {
+    "date": "22 марта, 2015",
+    "name": "Евтюхов П.В.",
+    "status_text": "Стал регистратором 3-го ранга",
+    "status_color": "green",
+    "status_fill": true,
+    "active": true
+  },
+  {
+    "date": "22 марта, 2015",
+    "name": "Васильков Е.П.",
+    "status_text": "Пересено в архив",
+    "status_color": "gray",
+    "status_fill": false,
+    "active": false
+  },
+  {
+    "date": "22 марта, 2015",
+    "name": "Картонная В.Н.",
+    "status_text": "Отклонено",
+    "status_color": "red",
+    "status_fill": false,
+    "active": true
+  },
+  {
+    "date": "20 марта, 2015",
+    "name": "Смирнов С.П.",
+    "status_text": "Не отправлено",
+    "status_color": "red",
+    "status_fill": true,
+    "active": true
+  },
+  {
+    "date": "15 марта, 2015",
+    "name": "Скоростоянов В.А.",
+    "status_text": "Принято",
+    "status_color": "lightblue",
+    "status_fill": true,
+    "active": true
+  },
+  {
+    "date": "13 марта, 2015",
+    "name": "Мартинкевич Г.И.",
+    "status_text": "Прошла аттестацию",
+    "status_color": "yellow",
+    "status_fill": true,
+    "active": true
+  },
+  {
+    "date": "11 марта, 2015",
+    "name": "Евтюхов П.В.",
+    "status_text": "Стал регистратором 3-го ранга",
+    "status_color": "green",
+    "status_fill": true,
+    "active": true
+  },
+  {
+    "date": "16 января, 2015",
+    "name": "Васильков Е.П.",
+    "status_text": "Пересено в архив",
+    "status_color": "gray",
+    "status_fill": false,
+    "active": false
+  },
+  {
+    "date": "10 января, 2015",
+    "name": "Картонная В.Н.",
+    "status_text": "Отклонено",
+    "status_color": "red",
+    "status_fill": false,
+    "active": true
+  },
+  {
+    "date": "9 января, 2015",
+    "name": "Никоноров Е.П.",
+    "status_text": "Просрочено",
+    "status_color": "gray",
+    "status_fill": true,
+    "active": true
+  }
+]
