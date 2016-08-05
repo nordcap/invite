@@ -5,6 +5,19 @@ $color_link: darkgray;
 $color_primary: #003740;
 $color_test: lightblue;
 
+.pill{
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+  top: 5px;
+  margin-right: 10px;
+  border-width: 3px;
+  border-style: solid;
+}
+
+
 a {
   color: $color_link;
   &:hover {
